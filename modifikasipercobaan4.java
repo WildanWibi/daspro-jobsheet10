@@ -20,7 +20,7 @@ public class modifikasipercobaan4 {
                     nilai[i][j] = sc.nextInt();
                     totalPerSiswa += nilai[i][j];
             }
-                System.out.println("Nilai rata-rata mahasiswa ke-" + (i + 1) + ": " + totalPerSiswa / jumlahMatkul);
+                System.out.println("Nilai rata-rata mahasiswa ke-" + (i + 1) + ": " + totalPerSiswa / jumlahSiswa);
         }
 
         System.out.println("\n=========================");
@@ -32,7 +32,7 @@ public class modifikasipercobaan4 {
             for (int i = 0; i < jumlahSiswa; i++) { 
                 totalPerMatkul += nilai[i][j];
             }
-            System.out.println("Mata Kuliah " + (j + 1) + ": " + totalPerMatkul / jumlahSiswa);
+            System.out.println("Mata Kuliah " + (j + 1) + ": " + totalPerMatkul / jumlahMatkul);
         }
     }
 }
